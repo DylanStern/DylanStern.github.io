@@ -1,5 +1,88 @@
+
+body {
+    background-color: beige;
+    color: black;
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    color: forestgreen;
+}
+
 #first {
-  height: 10;
-  width: 10;
-float:right;
+    float: right;
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+}
+
+table, th, td {
+    border: 2px solid forestgreen;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #0F5640 ;
+}
+tr:nth-child(odd) {
+    background-color: #1ba72e;
+}
+<!-- used UWGB colors sourced on web-->
+a:hover {
+    color: red;
+}
+
+
+#p1::first-letter {
+    font-size: 200%;
+    color: black;
+}
+h3 {
+    display: inline;
+    background-color: forestgreen;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+#p2{ background-color: green;
+    border-radius: 10px;
+        padding: 5px;
+}
+#meow{
+    padding: 5px;
+    border: 5px solid black;
+    margin: 5px;
+   
+}
+#p2 {
+    width: 400px;
+    float: right;
+    
+}
+#p1 {
+    border-left: 5px solid forestgreen;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+
+ul {
+   padding: 5px;
+    border: 5px solid black;
+    margin: 5px;
+
+}
+h2 {
+  background-color: forestgreen;
+   display: inline;
+    color: white;
+        border-radius: 6px;
+            padding: 5px;
+
+
 }
