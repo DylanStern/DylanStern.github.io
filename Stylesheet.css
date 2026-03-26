@@ -22,11 +22,10 @@ h1 {
 
 table, th, td {
     border: 2px solid forestgreen;
-    border-collapse: collapse;
     padding: 5px;
 }
 
-/* nth child */
+/* nth child  got colors from uwgb web design page*/
 
 tr:nth-child(even) {
     background-color: #0F5640 ;
@@ -51,6 +50,9 @@ h3 {
     color: white;
     padding: 5px;
     border-radius: 10px;
+    width: 400px;
+    float: right;
+    
 }
 #p2{ background-color: green;
     border-radius: 10px;
@@ -62,11 +64,7 @@ h3 {
     margin: 5px;
    
 }
-#p2 {
-    width: 400px;
-    float: right;
-    
-}
+
 #p1 {
     border-left: 5px solid forestgreen;
     border-radius: 10px;
