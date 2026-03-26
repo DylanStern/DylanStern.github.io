@@ -1,14 +1,17 @@
 
 body {
+    /* design point bg */
+
     background-color: beige;
     color: black;
-    font-family: Arial;
+    font-family: Times;
     margin: 20px;
 }
 
 h1 {
     color: forestgreen;
 }
+/* float */
 
 #first {
     float: right;
@@ -23,6 +26,7 @@ table, th, td {
     padding: 5px;
 }
 
+/* nth child */
 
 tr:nth-child(even) {
     background-color: #0F5640 ;
@@ -30,11 +34,12 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #1ba72e;
 }
-<!-- used UWGB colors sourced on web-->
+/* hover */
 a:hover {
     color: red;
 }
 
+/* psedo element */
 
 #p1::first-letter {
     font-size: 200%;
